@@ -1,0 +1,7 @@
+lst = []
+size = list(map(int,input().split()))[:2]
+print(*size)
+size_val = size[0]
+k_value = size[1]
+lst = list(map(int,input().split()))[:size_val]
+print(*lst)
