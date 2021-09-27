@@ -1,0 +1,6 @@
+char_list = []
+string = str(input())
+for i in range(0,len(string)):
+    char_list.append(string[i])
+print(*char_list,sep=',')
+    
