@@ -1,0 +1,6 @@
+f1_lst = list(map(int,input().split()))[:2]
+f2_lst = list(map(int,input().split()))[:2]
+f3_lst = list(map(int,input().split()))[:2]
+print(*f1_lst)
+print(*f2_lst)
+print(*f3_lst)
